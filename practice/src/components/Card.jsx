@@ -25,7 +25,7 @@ const Card = () => {
   ];
 
   return (
-    <div className="w-full h-screen bg-zinc-400 flex gap-5 items-center justify-center flex-wrap">
+    <div className="w-full  h-screen bg-zinc-400 flex gap-5 items-center justify-center flex-wrap">
       {data.map((elem, index) => (
         <div key={index} className="card bg-white rounded-lg w-fit">
           <div className="img w-[17vw] overflow-hidden">
